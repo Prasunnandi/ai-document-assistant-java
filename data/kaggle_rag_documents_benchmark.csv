@@ -1,0 +1,8 @@
+document_id,title,category,format,page_count,chunk_count,embedding_model,vector_dim,pgvector_index_type,retrieval_mrr_score,ingestion_status
+DOC-RAG-01,Enterprise_Information_Security_Policy_2026.pdf,Cybersecurity & Compliance,PDF,64,320,text-embedding-3-small,1536,HNSW-Cosine,0.942,INDEXED
+DOC-RAG-02,HIPAA_Business_Associate_Agreement_Standard.docx,Legal & Regulatory,DOCX,28,142,text-embedding-3-small,1536,HNSW-Cosine,0.918,INDEXED
+DOC-RAG-03,Kubernetes_Zero_Trust_Architecture_Spec.md,Infrastructure & DevOps,Markdown,45,215,bge-large-en-v1.5,1024,HNSW-Cosine,0.965,INDEXED
+DOC-RAG-04,Global_Employee_Benefits_and_Leave_Guidelines.pdf,Human Resources,PDF,82,410,text-embedding-3-small,1536,HNSW-Cosine,0.887,INDEXED
+DOC-RAG-05,SOC2_Type2_Control_Audit_Report_FY2025.pdf,Compliance & Audit,PDF,110,540,text-embedding-3-small,1536,HNSW-Cosine,0.951,INDEXED
+DOC-RAG-06,Disaster_Recovery_and_Failover_Runbook.md,Infrastructure & SRE,Markdown,36,180,bge-large-en-v1.5,1024,HNSW-Cosine,0.973,INDEXED
+DOC-RAG-07,Quarterly_Earnings_and_10K_Filing_Summary.pdf,Finance & Strategy,PDF,95,475,text-embedding-3-small,1536,HNSW-Cosine,0.904,INDEXED

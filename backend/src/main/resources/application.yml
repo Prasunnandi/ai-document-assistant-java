@@ -1,0 +1,21 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ai-document-assistant-java
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rag_db
+    username: postgres
+    password: postgrespassword
+
+rag:
+  embedding:
+    model: text-embedding-3-small
+    dimension: 1536
+  chunking:
+    max-tokens: 500
+    overlap-tokens: 50
+  retrieval:
+    top-k: 4
+    min-score: 0.75
